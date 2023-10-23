@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Configuration SYSTEM "xconf.dtd">
+<Configuration targetFile="codebase/service.properties">
+	<Service context="default" name="com.ptc.core.htmlcomp.tableview.ConfigurableTable">
+	 <Option serviceClass="com.wc.change2.tableViews.CAAffectedItemTableView"	  selector="changeTask_affectedItems_table"	 requestor="java.lang.Object"/>
+	</Service>
+	
+
+</Configuration>

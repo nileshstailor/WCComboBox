@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Configuration SYSTEM "xconf.dtd">
+
+<Configuration targetFile="codebase/com/ptc/core/components/components.dataUtilities.properties">
+
+	<Service context="default" name="com.ptc.core.components.descriptor.DataUtility">
+	 	<Option serviceClass="com.wc.change2.dataUtilities.ObsoleteChangeUtility"	  selector="isObsolete"	 requestor="java.lang.Object"/>
+	</Service>
+
+</Configuration>
